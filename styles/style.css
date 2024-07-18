@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+/* default styles */
+* {
+    margin: 0;
+}
+.nav-container{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    align-items: center;                  
+}
+
+
+
+
+/* shared styles */
+h3{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    line-height: normal;
+}
+p, li{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+ }
+.span{
+    color: #FF5400;
+}
+.display-flex{
+    display: flex;
+}
+
+/* nav related styles */
+.nav-items{
+    gap: 44px;
+} 
+.logo{
+    gap: 20px;
+    align-items: center;
+    width: 280px;
+}
+
+.nav-container {
+   justify-content: space-between;
+ }
+ .nav-items p{
+    cursor: pointer;
+ }
+ 
+
+
+
+ /* instructor's concept */
+/* .logo img{
+    width: 48px;
+    height: 56px;
+    margin-right:0.5rem;
+} */
+
+/* .nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+} */
+
+ 
